@@ -1,5 +1,4 @@
 import uinput
-
 from io import open
 import time
 import re
