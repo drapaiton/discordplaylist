@@ -1,6 +1,6 @@
 # discordplaylist
-a simple script to automatic adds a list of songs to the discord bot
+a simple script to automatic adds a list of songs to the discord bot \
 Uses the keyboard to add your playlist
 
-##Dependences
+##Dependences\
 uinput
