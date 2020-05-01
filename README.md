@@ -2,16 +2,17 @@
 a simple script to automatic adds a list of songs to the discord bot \
 Uses the keyboard to add your playlist
 
-##Dependences\
+## dependences
+
 python-uinput
 
 
 
 
-first test use in shell
-
+### first test: write in shell
 
 sudo modprobe -i uinput
 
 
-for a more permanent use, check uinput docs
+
+_for a more permanent use, check uinput docs_
