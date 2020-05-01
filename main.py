@@ -9,7 +9,7 @@ default_settings = """\
 Speed= 0.05
 Prefix= -p"""
 
-def writeKeyboard(to_write:str,writing_speed):
+def writeKeyboard(to_write:str,writing_speed:float):
     events = (
         uinput.KEY_A,
         uinput.KEY_B,
@@ -40,10 +40,11 @@ def writeKeyboard(to_write:str,writing_speed):
         uinput.KEY_ENTER,
         uinput.KEY_SPACE,
         uinput.KEY_KPMINUS,
+        uinput.KEY_KPEQUAL
         )
     
     with uinput.Device(events) as device:
-        translations = {" ":"space","\\":"enter","-":"kpminus"}
+        translations = {" ":"space","\\":"enter","-":"kpminus","=":"kpequal"}
         for ch in to_write:
             time.sleep(writing_speed)
             if ch in translations.keys():
