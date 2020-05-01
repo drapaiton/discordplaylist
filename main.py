@@ -3,6 +3,8 @@ from io import open
 import time
 import re
 
+#TODO: add uppper compatibility
+
 file_with_songs="songs.txt"
 file_with_settings="settings.txt"
 default_settings = """\
