@@ -1,0 +1,8 @@
+Cambios que hice que pienso que pueden mejorar el programa
+
+
+cambiar las settings a json lo hace mejor al ser un tipo de archivo usado al guardar configuraciones
+
+usar "keyboard" en vez de "py input" lo hace para todas las plataformas
+
+reescribi todo el codigo para que use la libreria keyboard, una de las mejores (si no es la mejor) libreria para usar el teclado

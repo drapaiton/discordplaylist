@@ -1,2 +1,2 @@
 setuptools
-python-Uinput
+keyboard
